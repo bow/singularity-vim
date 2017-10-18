@@ -1,6 +1,6 @@
 # singularity.vim
 
-Vim syntax file for [Singularity](http://singularity.lbl.gov/) [recipe files](http://singularity.lbl.gov/docs-recipes).
+Vim syntax files for [Singularity](http://singularity.lbl.gov/) [recipes](http://singularity.lbl.gov/docs-recipes).
 
 
 # Installation
@@ -8,3 +8,8 @@ Vim syntax file for [Singularity](http://singularity.lbl.gov/) [recipe files](ht
 ## Using Pathogen
 
     git clone https://github.com/bow/singularity.vim.git ~/.vim/bundle/singularity
+
+## Manual
+
+Copy the files inside `syntax`, `ftdetect`, and `ftplugin` directories into their respective counterparts in your
+`~/.vim` directory.
