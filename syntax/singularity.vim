@@ -27,6 +27,12 @@ syntax region singularityHelpSection
     \ end=/^%\w\+/me=s-1
 highlight default link singularityHelpSection String
 
+syntax region singularityLabelSection
+    \ matchgroup=singularitySectionName
+    \ start=/^%\(app\)\?labels\(\s\+\w\+\)\?/
+    \ end=/^%\w\+/me=s-1
+highlight default link singularityLabelSection String
+
 syntax match singularityComment
     \ "#.*$" display
 highlight default link singularityComment Comment
