@@ -13,7 +13,7 @@ try
 catch
 endtry
 
-syn region singularitySection
+syntax region singularitySection
     \ matchgroup=singularitySectionName
     \ start=/^%\w\+/
     \ end=/^%\w\+/me=s-1
@@ -21,7 +21,7 @@ syn region singularitySection
 highlight default link singularitySectionName Function
 
 " %(app)help sections has highlighting priority over other sections
-syn region singularityHelpSection
+syntax region singularityHelpSection
     \ matchgroup=singularitySectionName
     \ start=/^%\(app\)\?help\(\s\+\w\+\)\?/
     \ end=/^%\w\+/me=s-1
