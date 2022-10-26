@@ -1,7 +1,11 @@
-" Vim syntax file
+" Vim syntax file for Singularity recipe files.
+"
 " Language: Singularity Recipe <http://singularity.lbl.gov>
-" Maintainer: Wibowo Arindrarto
+" Maintainer: Wibowo Arindrarto <contact@arindrarto.dev>
 " Latest Revision: 18 October 2017
+"
+" Copyright (c) 2015-2022 Wibowo Arindrarto <contact@arindrarto.dev>
+" SPDX-License-Identifier: BSD-3-Clause
 
 if exists("b:current_syntax")
     finish

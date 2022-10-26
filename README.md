@@ -1,4 +1,4 @@
-# singularity.vim
+# singularity-vim
 
 Vim syntax files for [Singularity](http://singularity.lbl.gov/) [recipes](http://singularity.lbl.gov/docs-recipes).
 
